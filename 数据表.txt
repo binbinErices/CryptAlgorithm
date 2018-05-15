@@ -1,0 +1,51 @@
+/*
+ * 对客户基础信息表的操作
+ * 增删改查
+ * 导出为EXCEL
+ *
+ * */
+/*
+ * 创建costomer数据表
+ * create table customer(
+    id int(10) not null auto_increment,
+    name varchar(40) not null,
+    tel  varchar(15) not null,
+    liketype varchar(32) not null,
+    purpose  varchar(32) not NULL,
+    frequency varchar(32) not NULL,
+    infos  varchar(48) not NULL,
+    myuse   varchar(32) not NULL,
+    mylevel varchar(32) not NULL,
+    mycolor varchar(32) not NULL,
+    firsttime varchar(48) not NULL,
+    lasttime  varchar(48) not NULL,
+    peoplecount varchar(20) not NULL,
+    mytool  varchar(32) not NULL,
+    myresult varchar(32) not NULL,
+    recepter varchar(32) not NULL,
+    price  varchar(32) not NULL,
+    begintime varchar(48) not NULL,
+    feedback varchar(200) not NULL ,
+    primary key (id)
+)engine=InnoDB;
+ *
+ * */
+
+
+
+/*
+ * 对客户回访信息表的操作
+ * 增删改查
+ * 导出为EXCEL
+ *
+ * */
+/*
+ * 创建客户回访信息表
+ * create table visitbl(
+    name varchar(40) not null,
+    tel  varchar(15) not null,
+    worker varchar(32) not null,
+    place  varchar(120) not NULL,
+    time  varchar(20) not NULL,
+    info varchar(200) not NULL
+)engine=InnoDB;
